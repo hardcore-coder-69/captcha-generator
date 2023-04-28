@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.captcha-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#captcha-image {
+    margin: 10px 0;
+}
+
+.reload {
+    transform: rotate(90deg);
+    margin-left: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+}
